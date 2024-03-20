@@ -1,0 +1,85 @@
+.left-section-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15%;
+}
+
+/* -------- Logo Section -------- */
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+  padding-top: 30px;
+}
+
+.logo {
+  width: 120px;
+}
+
+/* -------- Menu Section -------- */
+.menu-section {
+  height: 23vh;
+  padding-top: 40px;
+  color: #1a1a1a;
+}
+.general-section {
+  height: 21vh;
+  padding-top: 0px;
+}
+.menu {
+  font-weight: 500;
+  font-size: 16px;
+}
+.li-icon {
+  font-size: 22px;
+  color: #829bb0;
+}
+.comingSoon {
+  font-size: 18px !important;
+}
+.menu-section ul {
+  flex-direction: column;
+  display: flex;
+  list-style-type: none;
+  margin-top: 10px;
+}
+.menu-section ul li {
+  font-weight: 500;
+  padding: 15px 0px;
+  display: flex;
+  align-items: center;
+}
+.menu-section ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #829bb0;
+  margin-left: 15px;
+}
+.menu-section ul li:hover {
+  .menu-section ul li {
+    color: #1a1a1a;
+  }
+  .li-icon {
+    color: #d81f26;
+  }
+}
+.menu-section ul li a:hover {
+  color: #1a1a1a;
+}
+.active {
+  .li-icon {
+    color: #d81f26;
+  }
+}
+.active-link {
+  color: #1a1a1a !important;
+}
+
+/* ------------ Responsive Design (width:992px) ------------ */
+
+@media (max-width: 992px) {
+  .logo-container {
+    display: none;
+  }
+}
